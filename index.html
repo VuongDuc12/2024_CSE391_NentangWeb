@@ -7,65 +7,111 @@
     <title>BT4_TH1</title>
 </head>
 <body>
-    <div id="basic_info">
-        <h2>Basic Info</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <th><h3>Employee ID</h3></th>
-                    <th><p>9</p></th>
-                </tr>
-                <tr>
-                    <th><h3>Last Name</h3></th>
-                    <th><p>Dodsworth</p></th>
-                </tr>
-                <tr>
-                    <th><h3>First Name</h3></th>
-                    <th><input type="text" value="Anne"> </th>
-                </tr>
-                <tr>
-                    <th><h3>Gender</h3></th>
-                    <th><div class="checkbox_gender">
-                        <label for="gender1"><input type="radio" name="gender"> Male</label>
-                        <label for="gender2"><input type="radio" name="gender"> Female</label>
-                        <label for="gender3"><input type="radio" name="gender"> XXX</label>
-                        
-                        <label for="gender4"><input type="radio" name="gender"> YYY</label>
-                    </div> </th>
-                </tr>
-                <tr>
-                    <th><h3>Title</h3></th>
-                    <th> <input type="text" value="Sales Representative"> </th>
-                </tr>
-                <tr>
-                    <th><h3>Suffix</h3></th>
-                    <th>  <input type="text" value="Ms.">  </th>
-                </tr>
-                <tr>
-                    <th><h3>Birthdate</h3></th>
-                    <th> <input type="text" value="1969-07-02 00:00:00"></th>
-                </tr>
-                <tr>
-                    <th><h3>Hiredate</h3></th>
-                    <th> <input type="text" value="1994-11-15 00:00:00"></th>
-                </tr>
-                <tr>
-                    <th><h3>SSN # (If applicable)</h3></th>
-                    <th>  <input type="text" value=""> </th>
-                </tr>
-                <tr>
-                    <th><h3>Report to</h3></th>
-                    <th>  
-                        <select id="report" name="report">
-                            <option value="Buchanan">Buchanan</option>
-                            <option value="Aquite">Aquite</option>
-                            <option value="Romani">Romani</option>
-                        
-                        </select></th>
-                </tr>
-            </tbody>
-        </table>
-    
+    <div id="main">
+        <div id="basic_info">
+            <h2>Basic Info</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th><h3>Employee ID</h3></th>
+                        <th><p>9</p></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Last Name</h3></th>
+                        <th><p>Dodsworth</p></th>
+                    </tr>
+                    <tr>
+                        <th><h3>First Name</h3></th>
+                        <th><input type="text" value="Anne"> </th>
+                    </tr>
+                    <tr>
+                        <th><h3>Gender</h3></th>
+                        <th><div class="checkbox_gender">
+                            <label for="gender1"><input type="radio" name="gender"> Male</label>
+                            <label for="gender2"><input type="radio" name="gender"> Female</label>
+                            <label for="gender3"><input type="radio" name="gender"> XXX</label>
+                            
+                            <label for="gender4"><input type="radio" name="gender"> YYY</label>
+                        </div> </th>
+                    </tr>
+                    <tr>
+                        <th><h3>Title</h3></th>
+                        <th> <input type="text" value="Sales Representative"> </th>
+                    </tr>
+                    <tr>
+                        <th><h3>Suffix</h3></th>
+                        <th>  <input type="text" value="Ms.">  </th>
+                    </tr>
+                    <tr>
+                        <th><h3>Birthdate</h3></th>
+                        <th> <input type="text" value="1969-07-02 00:00:00"></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Hiredate</h3></th>
+                        <th> <input type="text" value="1994-11-15 00:00:00"></th>
+                    </tr>
+                    <tr>
+                        <th><h3>SSN # (If applicable)</h3></th>
+                        <th>  <input type="text" value=""> </th>
+                    </tr>
+                    <tr>
+                        <th><h3>Report to</h3></th>
+                        <th>  
+                            <select id="report" name="report">
+                                <option value="Buchanan">Buchanan</option>
+                                <option value="Aquite">Aquite</option>
+                                <option value="Romani">Romani</option>
+                            
+                            </select></th>
+                    </tr>
+                </tbody>
+            </table>
+        
+        </div>
+        <div id="contact_info">
+            <h2>Contact Info</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th><h3>Email</h3></th>
+                        <th><input type="text" value=""></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Address</h3></th>
+                        <th><input type="text" value="7 Houndstooth Rd."></th>
+                    </tr>
+                    <tr>
+                        <th><h3>City</h3></th>
+                        <th><input type="text" value="London"></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Region</h3></th>
+                        <th><input type="text" value=""></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Postal Code</h3></th>
+                        <th><input type="text" value="WG2 7LT"></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Country</h3></th>
+                        <th>  
+                            <select id="Country" name="Country">
+                                <option value="Russia Federation">Russia Federation</option>
+                                
+                            
+                            </select></th>
+                    </tr>
+                    <tr>
+                        <th><h3>US Home Phone</h3></th>
+                        <th><input type="text" value="(234)234-5678"></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Photo</h3></th>
+                        <th><input type="text" value="EmpID9.bmp"></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     
 </body>

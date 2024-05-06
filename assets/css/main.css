@@ -15,9 +15,14 @@ body{
     margin-top: 40px;
     margin-left: 20px;
 }
-#basic_info{
-    margin-top: 50px;
+#main{
     border: 5px solid #9b9b9b;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#basic_info ,#contact_info{
+    margin-top: 50px;
+   
     width: 600px;
  
 }
@@ -34,4 +39,7 @@ h3{
 .checkbox_gender{
     display: flex;
     flex-direction: column;
+}
+h3{
+    width: 155.9px;
 }
