@@ -11,8 +11,8 @@ body{
 }
  h2 {
     border-bottom: 2px solid #333;
-    width: 90%;
-    margin-top: 40px;
+    width: 95%;
+    margin-top: 30px;
     margin-left: 20px;
 }
 #main{
@@ -23,7 +23,7 @@ body{
 #basic_info ,#contact_info{
     margin-top: 50px;
    
-    width: 600px;
+    width: 850px;
  
 }
 th{
@@ -41,5 +41,64 @@ h3{
     flex-direction: column;
 }
 h3{
-    width: 155.9px;
+    width: 156px;
+}
+.width_textbox{
+    width: 477px;
+
+}
+
+.ckeditor{
+   max-width: 500px; 
+   min-height: 100px;
+}
+.prefered{
+    display: flex;
+    flex-direction: column;
+}
+.prefered_check{
+    margin-top: 5px;
+    font-weight: 550;
+}
+.prefered_check input{
+    margin-right: 5px;
+}
+.thanhcuoi-trai i{
+background-color: black;
+color: aliceblue;
+width: 20px;
+text-align: center;
+}
+.thanhcuoi-trai i:hover{
+    background-color: red;
+}
+.button {
+    display: flex;
+    background-color: #333;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+.button i{
+    margin-right: 5px;
+    
+}
+.button:hover{
+    background-color: red;
+}
+.thanhcuoi-phai{
+    display: flex;
+}
+.thanhcuoi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin:  0px 20px 1px 30px;
+}
+.required{
+    margin:  0px 25px 10px 30px;
 }

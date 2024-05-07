@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://cdn.ckeditor.com/ckeditor5/41.3.1/classic/ckeditor.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>BT4_TH1</title>
 </head>
 <body>
@@ -22,7 +24,7 @@
                     </tr>
                     <tr>
                         <th><h3>First Name</h3></th>
-                        <th><input type="text" value="Anne"> </th>
+                        <th><input class="width_textbox" type="text" value="Anne"> </th>
                     </tr>
                     <tr>
                         <th><h3>Gender</h3></th>
@@ -36,23 +38,23 @@
                     </tr>
                     <tr>
                         <th><h3>Title</h3></th>
-                        <th> <input type="text" value="Sales Representative"> </th>
+                        <th> <input class="width_textbox" type="text" value="Sales Representative"> </th>
                     </tr>
                     <tr>
                         <th><h3>Suffix</h3></th>
-                        <th>  <input type="text" value="Ms.">  </th>
+                        <th>  <input class="width_textbox" type="text" value="Ms.">  </th>
                     </tr>
                     <tr>
                         <th><h3>Birthdate</h3></th>
-                        <th> <input type="text" value="1969-07-02 00:00:00"></th>
+                        <th> <input class="width_textbox" type="text" value="1969-07-02 00:00:00"></th>
                     </tr>
                     <tr>
                         <th><h3>Hiredate</h3></th>
-                        <th> <input type="text" value="1994-11-15 00:00:00"></th>
+                        <th> <input class="width_textbox" type="text" value="1994-11-15 00:00:00"></th>
                     </tr>
                     <tr>
                         <th><h3>SSN # (If applicable)</h3></th>
-                        <th>  <input type="text" value=""> </th>
+                        <th>  <input class="width_textbox" type="text" value=""> </th>
                     </tr>
                     <tr>
                         <th><h3>Report to</h3></th>
@@ -74,23 +76,23 @@
                 <tbody>
                     <tr>
                         <th><h3>Email</h3></th>
-                        <th><input type="text" value=""></th>
+                        <th><input class="width_textbox" type="text" value=""></th>
                     </tr>
                     <tr>
                         <th><h3>Address</h3></th>
-                        <th><input type="text" value="7 Houndstooth Rd."></th>
+                        <th><input class="width_textbox" type="text" value="7 Houndstooth Rd."></th>
                     </tr>
                     <tr>
                         <th><h3>City</h3></th>
-                        <th><input type="text" value="London"></th>
+                        <th><input class="width_textbox" type="text" value="London"></th>
                     </tr>
                     <tr>
                         <th><h3>Region</h3></th>
-                        <th><input type="text" value=""></th>
+                        <th><input class="width_textbox" type="text" value=""></th>
                     </tr>
                     <tr>
                         <th><h3>Postal Code</h3></th>
-                        <th><input type="text" value="WG2 7LT"></th>
+                        <th><input class="width_textbox" type="text" value="WG2 7LT"></th>
                     </tr>
                     <tr>
                         <th><h3>Country</h3></th>
@@ -103,16 +105,96 @@
                     </tr>
                     <tr>
                         <th><h3>US Home Phone</h3></th>
-                        <th><input type="text" value="(234)234-5678"></th>
+                        <th><input class="width_textbox" type="text" value="(234)234-5678"></th>
                     </tr>
                     <tr>
                         <th><h3>Photo</h3></th>
-                        <th><input type="text" value="EmpID9.bmp"></th>
+                        <th><input class="width_textbox" type="text" value="EmpID9.bmp"></th>
                     </tr>
                 </tbody>
             </table>
         </div>
+
+        <div id="optional_info">
+            <h2>Optional Info</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th><h3>Notes</h3></th>
+                        <th class="ckeditor"> <div id="editor">This is some sample content.</div></th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3>Prefered Shift</h3>
+                        </th>
+                        <th>
+                            <div class="prefered">
+                                <label class="prefered_check" for="Regular"><input type="Checkbox">Regular</label>
+                                <label class="prefered_check"  for="Regular"><input type="Checkbox">Regular</label>
+                            </div>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3>Active?</h3>
+                        </th>
+                        <th>
+                            <div class="prefered">
+                                <label class="prefered_check" for="Regular"><input type="Checkbox"></label>
+                               
+                            </div>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3>Are you human?</h3>
+                        </th>
+                        <th>
+                            <div >
+                               
+                               
+                            </div>
+                            
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="end">
+            <h2></h2>
+            <div class="thanhcuoi">
+                <div class="thanhcuoi-trai">
+                    <i class="fa-solid fa-caret-left"></i>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+                <div class="thanhcuoi-phai">
+                    <div class="submit button">
+                        <i class="fa-solid fa-floppy-disk"></i>
+                        <p>Submit</p>
+                    </div>
+                    <div class="cancel button">
+                        <i class="fa-solid fa-xmark"></i>
+                        <p>Cancel</p>
+                    </div>
+                </div>
+            </div>
+            <p class="required">*required</p>
+            
+
+
+        </div>
     </div>
-    
+    <script>
+        ClassicEditor
+                .create( document.querySelector( '#editor' ) )
+                .then( editor => {
+                        console.log( editor );
+                } )
+                .catch( error => {
+                        console.error( error );
+                } );
+</script>
 </body>
 </html>
