@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main{
+    border: 3px solid #5780c8;
+    width: 1400px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ten_khoahoc{
+    margin: 10px 10px 0px 15px;
+    border-left: 5px solid #792d2d;
+    color: #792d2d;
+    padding-left: 5px;
+    
+}
+.list_KhoaHoc{
+    margin: 10px 10px 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.khoa_hoc{
+    width: 32%;
+    margin-bottom: 50px;
+    margin-right: 15px;
+}
+.khoa_hoc img{
+    width: 420px;
+}
+.khoa_hoc h4{
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.khoa_hoc .noi_dung{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.phancuoikhoa_hoc{
+    margin-top: 20px;
+}
+.phancuoikhoa_hoc .qua, .khai_giang, .thoi_luong {
+    display: flex;
+    margin-bottom: 7px;
+}
+.phancuoikhoa_hoc i{
+    margin-right: 10px;
+    color: #792d2d;
+}
+.phancuoikhoa_hoc p{
+    font-size: 15px;
+ 
+   
+}
+.margin_khoahoc{
+    margin-top: 10px;
+}
+
+
+
+
