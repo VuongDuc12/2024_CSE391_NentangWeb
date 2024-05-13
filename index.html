@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <div class="container-fluid mx-5">
+                  <a class="navbar-brand" href="#">TLU</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Trang Chủ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Quản Lý Nhân Viên</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" style="width: 280px" type="search" placeholder="Nhập nội dung tìm kiếm" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Tìm</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            
+        </header>
+        <main>
+           
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary my-4 ">
+                <div class="container-fluid mx-5">
+                  <a class="navbar-brand mx-2 fs-3 " href="#">Quản Lý Nhân Viên</a>
+                 
+                  
+                 
+                    
+                    <div class="d-flex">
+                        <button class="btn text-light bg-danger mx-1 d-flex align-items-center" type="submit">
+                            <i class="fa-solid fa-plus text-light mx-1"></i>
+                            <p class="m-0">Xóa</p>
+                        </button>
+
+                  
+                      <button class="btn text-light bg-success mx-1 d-flex align-items-center" type="submit">
+                        <i class="fa-solid fa-minus text-light mx-1"></i>
+                        <p class="m-0">Thêm Nhân Viên</p>
+                    </button>
+                    </div>
+                  </div>
+                
+              </nav>
+             
+
+              <table class="table  table-striped" style="width:90%; margin-left:80px;">
+                <thead>
+                  <tr>
+                    <th scope="col"><input type="checkbox"></th>
+                    <th scope="col">Họ Và Tên</th>
+                    <th scope="col">Thư điện tử</th>
+                    <th scope="col">Địa chỉ</th>
+                    <th scope="col">Số điện thoại</th>
+                    <th scope="col">Hành Động</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td>Nguyễn Văn A</td>
+                    <td>nguyenvana@example.com</td>
+                    <td>Hà Nội, Việt Nam</td>
+                    <td>098816283</td>
+                    <td>
+                        <i class="fa-solid fa-pen text-warning mx-3"></i>
+                        <i class="fa-solid fa-trash text-danger"></i>
+                    </td>
+                  </tr>
+                 
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td>Tran Thi B</td>
+                    <td>tranthib@example.com</td>
+                    <td>TP Hồ Chí Minh, Việt Nam</td>
+                    <td>098816283</td>
+                    <td>
+                        <i class="fa-solid fa-pen text-warning mx-3"></i>
+                        <i class="fa-solid fa-trash text-danger"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td>Lê Văn C</td>
+                    <td>levanc@example.com</td>
+                    <td>Đà Nẵng, Việt Nam</td>
+                    <td>098816283</td>
+                    <td>
+                        <i class="fa-solid fa-pen text-warning mx-3"></i>
+                        <i class="fa-solid fa-trash text-danger"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input type="checkbox"></th>
+                    <td>Phạm Thị D</td>
+                    <td>phamthid@example.com</td>
+                    <td>cantho, Việt Nam</td>
+                    <td>098816283</td>
+                    <td>
+                        <i class="fa-solid fa-pen text-warning mx-3"></i>
+                        <i class="fa-solid fa-trash text-danger"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+            <div class="d-flex justify-content-between align-items-center mx-5 px-3">
+                <p class="text-primary" >Hiện thị 5/25 bảng ghi</p>
+
+                <nav aria-label="...">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#">Trước</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item " aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item " aria-current="page">
+                        <a class="page-link" href="#">4</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Sau</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+            
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
